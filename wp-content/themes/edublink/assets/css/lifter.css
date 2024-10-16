@@ -1,0 +1,164 @@
+.llms-access-plan-title {
+    border-radius: 5px 5px 0 0;
+    background: var(--edublink-color-primary);
+}
+
+.llms-access-plan .llms-access-plan-content {
+    border-radius: 5px 5px 0 0;
+}
+
+.llms-access-plan-price .lifterlms-price {
+    color: var(--edublink-color-heading);
+    font-family: var(--edublink-font-secondary);
+}
+
+.llms-button-action:focus, 
+.llms-button-action:active,
+.llms-button-action:hover {
+    background: var(--edublink-color-primary);
+}
+
+.llms-access-plans a.llms-button-action {
+    line-height: 42px;
+}
+
+.eb-course-details-page-content .llms-access-plan-featured:empty { 
+    display: none 
+}
+
+.eb-course-details-page-content .llms-syllabus-wrapper {
+    margin: 40px 0 0;
+}
+
+.eb-course-details-page-content .llms-syllabus-wrapper .eb-llms-each-section {
+    margin: 0 0 30px;
+    border: 1px solid var(--edublink-color-border);
+}
+
+.eb-course-details-page-content .llms-syllabus-wrapper .llms-section-title {
+    background: var(--edublink-color-shade);
+    margin-top: 0px;
+    padding: 15px 20px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.eb-course-details-page-content .llms-lesson-preview {
+    width: 100%;
+    margin-top: 0;
+    color: var(--edublink-color-body);
+}
+
+.eb-course-details-page-content .llms-lesson-preview:not(:last-child) {
+    border-bottom: 1px solid var(--edublink-color-border);
+}
+
+.eb-course-details-page-content .llms-lesson-preview .llms-lesson-link {
+    background: transparent;
+    color: var(--edublink-color-body);
+    padding: 15px 20px;
+    display: flex;
+}
+
+.eb-course-details-page-content .llms-lesson-preview .llms-lesson-title {
+    font-size: 15px;
+    font-weight: 500;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.eb-course-details-page-content .llms-lesson-preview:hover .llms-lesson-title {
+    color: var(--edublink-color-primary);
+}
+
+.eb-course-details-page-content .llms-lesson-preview .llms-extra {
+    display: flex;
+    flex-direction: row-reverse;
+    order: 2;
+    align-items: center;
+    width: inherit;
+    float: none;
+    margin-left: auto;
+}
+
+.eb-course-details-page-content .llms-lesson-preview .llms-extra+.llms-main {
+    width: inherit;
+    float: none;
+}
+
+.eb-course-details-page-content .llms-lesson-preview .llms-icon-free,
+.eb-course-details-page-content .llms-lesson-preview .llms-lesson-counter {
+    padding: 6px 6px 4px;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: var(--edublink-font-secondary);
+}
+
+.eb-course-details-page-content .llms-lesson-preview .llms-icon-free {
+    background-color: rgba(26, 182, 157, 0.07);
+    color: var(--edublink-color-primary);
+    margin-right: 15px;
+}
+
+.eb-course-details-page-content .llms-lesson-preview .llms-lesson-counter {
+    margin-bottom: 0;
+    background-color: rgba(238, 74, 99, 0.07);
+    color: var(--edublink-color-secondary);
+}
+
+.eb-course-details-page-content .llms-lesson-preview .clear {
+    display: none;
+}
+
+.eb-course-details-page-content .llms-lesson-link-locked, 
+.eb-course-details-page-content .llms-lesson-link-locked:hover {
+    -webkit-box-shadow: inherit;
+    box-shadow: inherit;
+    min-height: inherit;
+}
+
+.eb-ll-course-author-box {
+    margin: 65px 0 65px;
+}
+
+.eb-ll-course-author-box h5 {
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.62;
+    font-family: var(--edublink-font-secondary);
+}
+
+.llms-lesson-preview.is-incomplete .llms-lesson-complete {
+    color: #999;
+    background: transparent;
+    margin-bottom: 0;
+    font-size: 16px;
+    margin-right: 7px;
+}
+
+button.llms-button-primary:hover,
+button.llms-button-primary.clicked,
+a.llms-button-primary:hover, 
+a.llms-button-primary.clicked {
+    background: var(--edublink-color-primary);
+}
+
+@media only screen and (max-width: 767px) {
+    .eb-course-details-page-content .llms-lesson-preview .llms-lesson-counter {
+        display: none;
+    }
+
+    .eb-course-details-page-content .llms-lesson-preview .llms-icon-free {
+        margin-right: 0;
+    }
+}
+
+.llms-lesson-preview .llms-lesson-link {
+    height: inherit !important;
+}
+
+.edublink-single-post .llms-video-wrapper {
+    margin-bottom: 25px;
+}

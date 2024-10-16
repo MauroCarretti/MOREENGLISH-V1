@@ -1,0 +1,16 @@
+<?php
+
+defined( 'ABSPATH' ) || exit();
+use \EduBlink\Filter;
+
+global $post, $authordata;
+
+if ( ! isset( $block_data ) ) :
+    $block_data = array();
+endif;
+
+$default_data = Filter::TL_Data();
+$features = $default_data['features'];
+$block_data = wp_parse_args( $block_data, $default_data );
+
+tutor_load_template( 'custom.course-block.block-' . $block_data['style'], compact( 'block_data', 'features' ) );

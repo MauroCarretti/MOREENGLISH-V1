@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="265.087" height="286.967" viewBox="0 0 265.087 286.967">
+  <defs>
+    <filter id="woman-attending-online-class" x="0" y="0" width="265.087" height="286.967" filterUnits="userSpaceOnUse">
+      <feOffset dy="-5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#woman-attending-online-class)">
+    <path id="woman-attending-online-class-2" data-name="woman-attending-online-class" d="M30.63,20.821,237.159,31.666a12.314,12.314,0,0,1,5.05,1.391,13.947,13.947,0,0,1,4.107,3.279,15.47,15.47,0,0,1,2.76,4.681,16,16,0,0,1,1.01,5.607v203.72a16,16,0,0,1-1.01,5.607,15.471,15.471,0,0,1-2.76,4.681,13.946,13.946,0,0,1-4.107,3.279,12.313,12.313,0,0,1-5.05,1.391L30.63,276.147a14.987,14.987,0,0,1-6.06-.918,14.6,14.6,0,0,1-4.971-3.121,14.762,14.762,0,0,1-3.363-4.849A15.376,15.376,0,0,1,15,261.17V35.8a15.376,15.376,0,0,1,1.236-6.089A14.762,14.762,0,0,1,19.6,24.86a14.605,14.605,0,0,1,4.971-3.121A14.987,14.987,0,0,1,30.63,20.821Z" fill="#fff"/>
+  </g>
+</svg>

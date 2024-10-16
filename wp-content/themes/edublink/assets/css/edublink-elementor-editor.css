@@ -1,0 +1,8 @@
+.edublink-elementor-icon:after {
+    position: absolute;
+    content: 'EduBlink';
+    top: 2px;
+    right: 2px;
+    font-size: 10px;
+    opacity: .8;
+}

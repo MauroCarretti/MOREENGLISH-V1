@@ -1,0 +1,13 @@
+.edublink-course-archive .course:not(body) {
+    padding: 0 15px !important;
+    border-bottom: 0px !important;
+}
+
+.filtered-courses .edublink-course-archive .course:not(body) {
+    padding: 0 !important;
+    border-bottom: 0px !important;
+}
+
+.edublink-single-course .course-price .regular-price {
+    display: none;
+}

@@ -1,0 +1,131 @@
+
+---Archivos descargados---
+Los archivos de importación para EduBlink LearnPress Demo(Recommended) ¡han sido descargados correctamente!
+Tiempo de ejecución máximo inicial = 120
+Información de archivos:
+URL del sitio = http://localhost/web2
+Archivo de datos = C:\xampp\htdocs\web2/wp-content/uploads/2024/10/demo-content-import-file_2024-10-14__21-06-06.xml
+Archivo de widget = C:\xampp\htdocs\web2/wp-content/uploads/2024/10/demo-widgets-import-file_2024-10-14__21-06-06.json
+Archivo del personalizador = C:\xampp\htdocs\web2/wp-content/uploads/2024/10/demo-customizer-import-file_2024-10-14__21-06-06.dat
+Archivos de Redux:
+ edublink_theme_options -> C:\xampp\htdocs\web2/wp-content/uploads/2024/10/demo-redux-import-file_0-2024-10-14__21-06-06.json 
+
+
+------
+¡Nueva llamada AJAX!
+
+
+------
+¡Nueva llamada AJAX!
+
+
+------
+¡Nueva llamada AJAX!
+
+
+------
+¡Nueva llamada AJAX!
+
+
+------
+¡Nueva llamada AJAX!
+
+
+------
+¡Nueva llamada AJAX!
+
+
+------
+¡Nueva llamada AJAX!
+
+
+------
+¡Nueva llamada AJAX!
+
+
+------
+¡Nueva llamada AJAX!
+
+
+------
+¡Nueva llamada AJAX!
+
+
+------
+¡Nueva llamada AJAX!
+
+
+------
+¡Nueva llamada AJAX!
+
+
+------
+¡Nueva llamada AJAX!
+
+
+------
+¡Nueva llamada AJAX!
+
+
+------
+¡Nueva llamada AJAX!
+
+
+------
+¡Nueva llamada AJAX!
+
+
+------
+¡Nueva llamada AJAX!
+
+
+------
+¡Nueva llamada AJAX!
+
+
+------
+¡Nueva llamada AJAX!
+
+
+------
+¡Nueva llamada AJAX!
+
+
+------
+¡Nueva llamada AJAX!
+
+
+---Importando los widgets---
+Course Sidebar : 
+
+Bloque - Sin título - Importado
+Bloque - Sin título - Importado
+Bloque - Sin título - Importado
+
+All Courses : 
+
+Bloque - Sin título - Importado
+Bloque - Sin título - Importado
+
+Sidebar Default : 
+
+Archivos - Sin título - Importado
+
+Blog Sidebar : 
+
+Búsqueda - Search - Importado
+EduBlink Recent Post - Latest Post - Importado
+Categorías - Categories - Importado
+Imagen - Sin título - Importado
+Nube de etiquetas - Sin título - Importado
+
+
+
+---Ajustes de importación de Redux---
+¡La importación de los ajustes de Redux edublink_theme_options ha finalizado correctamente!
+
+---Importación de los ajustes del personalizador---
+¡Importación de los ajustes del personalizador finalizado!
+
+---ocdi/after_import---
+

@@ -1,0 +1,1032 @@
+body .masterstudy-buy-button:active, 
+body .masterstudy-buy-button:focus, 
+body .masterstudy-buy-button:hover {
+    background-color: var(--edublink-color-primary-alt) !important;
+}
+
+.edublink-single-course .course-price span.sale_price {
+    display: none;
+}
+
+.edublink-wishlist-item .stm-lms-wishlist span {
+    display: none;
+}
+
+.edublink-wishlist-item .stm-lms-wishlist {
+    margin: 0;
+}
+
+.edublink-single-course.course-style-1 .stm-lms-wishlist i {
+	color: var(--edublink-color-white);
+    cursor: pointer;
+    background: rgba(45, 40, 78, 0.2);
+    backdrop-filter: blur(10px);
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 100%;
+    border: 0 none;
+    padding: 0;
+    display: inline-block;
+	background: rgba(255, 255, 255, 0.15);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.edublink-single-course.course-style-1 .stm-lms-wishlist.loading i {
+    line-height: 37px;
+}
+
+.edublink-course-14-hover .stm-lms-wishlist.loading:before,
+.edublink-single-course .stm-lms-wishlist.loading:before {
+    display: none;
+}
+
+.edublink-single-course.course-style-1 .stm-lms-wishlist i.fa.fa-heart,
+.edublink-single-course.course-style-1 .stm-lms-wishlist i:hover {
+    background: var(--edublink-color-secondary);
+    border-color: var(--edublink-color-secondary);
+}
+
+.edublink-course-14-hover .stm-lms-wishlist i {
+    color: var(--edublink-color-heading);
+	pointer-events: all;
+    cursor: pointer;
+    border: 1px solid #e5e5e5;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 100%;
+    padding: 0;
+    display: inline-block;
+}
+
+.edublink-course-14-hover .stm-lms-wishlist i.fa.fa-heart,
+.edublink-course-14-hover .stm-lms-wishlist i:hover,
+.edublink-course-14-hover .stm-lms-wishlist i.far:hover {
+    color: var(--edublink-color-white);
+    background: var(--edublink-color-secondary);
+    border-color: var(--edublink-color-secondary);
+}
+
+.edublink-course-14-hover .stm-lms-wishlist,
+.edublink-single-course .stm-lms-wishlist {
+    cursor: pointer;
+}
+
+.edublink-course-14-hover .stm-lms-wishlist.loading i,
+.edublink-single-course .stm-lms-wishlist.loading i {
+    opacity: 1;
+}
+
+.eb-ms-course-single-wrapper>.container {
+    max-width: 100%;
+    padding: 0;
+}
+
+.edublink-course-details-features-item.course-price .sale_price + .price {
+    text-decoration: line-through;
+    color: var(--edublink-color-body);
+    font-size: 17px;
+    margin-left: 2px;
+    position: relative;
+    top: -1px;
+}
+
+.edublink-course-details-sidebar-content .stm-lms-buy-buttons {
+    margin-top: 30px;
+}
+
+.edublink-course-details-sidebar-buttons a.course-sidebar-btn:last-child {
+    margin-bottom: 0 !important;
+}
+
+.edublink-course-details-sidebar-content .stm-lms-buy-buttons .btn {
+    background: var(--edublink-color-primary);
+    border-radius: 5px !important;
+}
+
+.edublink-course-details-sidebar-content .stm-lms-buy-buttons .btn span,
+.edublink-course-details-sidebar-content .stm-lms-buy-buttons a span {
+    text-transform: capitalize;
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+}
+
+body .edublink-course-details-sidebar-content .masterstudy-buy-button:hover,
+body .edublink-course-details-sidebar-content .masterstudy-buy-button {
+    background: transparent !important;
+}
+
+body .edublink-course-details-sidebar-content .masterstudy-buy-button__price,
+body .edublink-course-details-sidebar-content .masterstudy-buy-button__separator {
+    display: none !important;
+}
+
+body .edublink-course-details-sidebar-content .masterstudy-buy-button__title {
+    font-size: 16px;
+    line-height: inherit;
+    font-weight: 600;
+    letter-spacing: inherit;
+    text-transform: inherit;
+}
+
+body .edublink-course-details-sidebar-content .masterstudy-buy-button a.masterstudy-buy-button__link {
+    width: 100%;
+}
+
+.edublink-course-details-sidebar-content .stm-lms-buy-buttons .btn:not(.start-course).btn_big .btn-prices,
+.edublink-course-details-sidebar-content .stm-lms-buy-buttons .btn-prices.btn-prices-price {
+    display: none !important;
+}
+
+.edublink-course-details-sidebar-content .masterstudy-single-course-complete-block.masterstudy-single-course-complete-block_in-progress {
+    padding: 15px 0px;
+}
+
+.edublink-course-details-sidebar-content .masterstudy-single-course-complete__bar-empty {
+    border-bottom-color: #e8e8e8;
+}
+
+.eb-course-details-page-content .stm_lms_course__image img {
+    margin-bottom: 20px;
+}
+
+.eb-ms-course-details .nav-tabs-wrapper ul {
+    background: transparent;
+    border: 0 none;
+    margin: 0 !important;
+    padding: 0 !important;
+    justify-content: center;
+    border-bottom: 1px solid var(--edublink-color-border);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.eb-ms-course-details .nav-tabs-wrapper ul li {
+    -webkit-box-flex: inherit !important;
+    -ms-flex: inherit !important;
+    flex: inherit !important;
+    margin: 0px 5px;
+}
+
+.eb-ms-course-details .nav-tabs-wrapper ul li a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    border: 0 none;
+    background: transparent;
+    padding: 15px 15px;
+    position: relative;
+    color: var(--edublink-color-body);
+    font-family: var(--edublink-font-secondary);
+    display: inline-block;
+    border-top: 0 !important;
+}
+
+.eb-ms-course-details .nav-tabs-wrapper ul li.active a {
+    color: var(--edublink-color-primary) !important;
+}
+
+@media only screen and (max-width: 618px) {
+    .eb-ms-course-details .nav-tabs-wrapper ul li a {
+        padding: 15px 0px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 600px) {
+    .eb-ms-course-details .nav-tabs-wrapper {
+        overflow-x: inherit;
+        margin-bottom: 0px;
+    }
+
+    .eb-ms-course-details .nav-tabs-wrapper ul.nav-tabs {
+        width: inherit;
+        flex-wrap: wrap !important;
+    }
+}
+
+.eb-ms-course-details .nav-tabs-wrapper ul li a::after {
+    position: absolute;
+    content: "";
+    background: var(--edublink-color-primary);
+    border-radius: 1px 1px 0px 0px;
+    height: 2px;
+    width: 0;
+    transition: 0.4s;
+    left: 0%;
+    bottom: -1px;
+    opacity: 0;
+}
+
+body .courses_filters__switcher i.active,
+.eb-ms-course-details .nav-tabs-wrapper ul li:hover a:hover {
+    color: var(--edublink-color-primary);
+}
+
+.eb-ms-course-details .nav-tabs-wrapper ul li:hover a::after,
+.eb-ms-course-details .nav-tabs-wrapper ul li.active a::after {
+    width: 100%;
+    opacity: 1;
+}
+
+.eb-ms-course-details .tab-content {
+    padding-top: 65px;
+}
+
+.eb-course-single-style-2 .eb-ms-course-details .tab-content,
+.eb-course-single-style-3 .eb-ms-course-details .tab-content,
+.eb-course-single-style-5 .eb-ms-course-details .tab-content {
+    padding-top: 0px;
+}
+
+.eb-course-single-style-2 .eb-ms-course-details .tab-content .tab-pane:not(:last-child), 
+.eb-course-single-style-3 .eb-ms-course-details .tab-content .tab-pane:not(:last-child), 
+.eb-course-single-style-5 .eb-ms-course-details .tab-content .tab-pane:not(:last-child) {
+    margin-bottom: 65px;
+}
+
+.edublink-course-page-header.dark-version .eb-course-header-meta-items .eb-rating-text {
+    color: var(--edublink-color-white);
+}
+
+body .masterstudy-single-course-description__content p {
+    margin: 0 0 30px;
+    font-size: var(--edublink-font-size-b1);
+    line-height: var(--edublink-line-height-b1);
+    color: var(--edublink-color-body);
+}
+
+body .masterstudy-single-course-tabs__content {
+    display: block;
+}
+
+@media only screen and (max-width: 767px) {
+    .eb-ms-course-details .tab-content {
+        padding-top: 40px;
+    }
+
+    .eb-course-single-style-2 .eb-ms-course-details .tab-content .tab-pane:not(:last-child), 
+    .eb-course-single-style-3 .eb-ms-course-details .tab-content .tab-pane:not(:last-child), 
+    .eb-course-single-style-5 .eb-ms-course-details .tab-content .tab-pane:not(:last-child) {
+        margin-bottom: 40px;
+    }
+}
+
+.eb-ms-course-details .tab-content #faq .panel-heading {
+    padding: 0;
+}
+
+.eb-ms-course-details #stm_lms_faq .panel.panel-default {
+    border-color: var(--edublink-color-border);
+    border-radius: 0;
+}
+
+.eb-ms-course-details #stm_lms_faq .panel.panel-default .panel-heading .panel-title a {
+    padding: 25px 40px 20px 20px;
+}
+
+.eb-ms-course-details #stm_lms_faq .panel.panel-default .panel-body {
+    padding: 0px 20px 20px;
+}
+
+.eb-ms-course-details #stm_lms_faq .panel.panel-default .panel-heading .panel-title a:hover {
+    color: var(--edublink-color-primary);
+}
+
+.eb-ms-course-details #stm_lms_faq .panel.panel-default:hover {
+    box-shadow: inherit;
+}
+
+.eb-ms-course-details #stm_lms_faq .panel.panel-default:before {
+    background-color: transparent;
+}
+
+.eb-ms-course-details #stm_lms_faq .panel.panel-default .panel-heading .panel-title a i {
+    border-right: 2px solid var(--edublink-color-heading);
+    border-bottom: 2px solid var(--edublink-color-heading);
+    color: var(--edublink-color-heading);
+    left: inherit;
+    right: 20px;
+    top: 26px;
+    transform: rotate(-135deg)
+}
+
+.eb-ms-course-details #stm_lms_faq .panel.panel-default .panel-heading .panel-title a.collapsed i {
+    top: 25px;
+    transform: rotate(40deg);
+}
+
+body .masterstudy-single-course-faq__item {
+    background: transparent;
+    border-radius: 4px;
+    border: 1px solid var(--edublink-color-border);
+}
+
+body .masterstudy-single-course-faq__item:hover .masterstudy-single-course-faq__container {
+    background: transparent;
+} 
+
+.eb-ms-course-details .masterstudy-curriculum-list__section {
+    padding: 0 0 18px;
+    border-bottom: 1px solid var(--edublink-color-border);
+}
+
+.eb-ms-course-details .tab-content .masterstudy-curriculum-list {
+    border: 1px solid var(--edublink-color-border);
+    border-radius: 5px;
+    padding: 30px 40px;
+}
+
+.eb-ms-course-details .masterstudy-curriculum-list .masterstudy-curriculum-list__wrapper:not(:first-child) .masterstudy-curriculum-list__section {
+    margin-top: 26px;
+}
+
+.eb-ms-course-details .masterstudy-curriculum-list__section-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--edublink-color-heading);
+}
+
+.eb-ms-course-details .masterstudy-curriculum-list__item {
+    background: transparent;
+    border-bottom: 1px solid var(--edublink-color-border);
+}
+
+.eb-ms-course-details .masterstudy-curriculum-list__item:last-child {
+    margin: 0px;
+}
+
+.eb-ms-course-details .masterstudy-curriculum-list__title {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    color: var(--edublink-color-heading);
+}
+
+.eb-ms-course-details .masterstudy-curriculum-list a.masterstudy-curriculum-list__link {
+    padding: 13px 0px;
+    align-items: flex-start;
+}
+
+.eb-ms-course-details .masterstudy-curriculum-list a.masterstudy-curriculum-list__link:hover {
+    background: transparent;
+}
+
+.eb-ms-course-details .masterstudy-curriculum-list a.masterstudy-curriculum-list__link .eb-ms-cu-icon,
+.eb-ms-course-details .masterstudy-curriculum-list a.masterstudy-curriculum-list__link:hover .eb-ms-cu-icon,
+.eb-ms-course-details .masterstudy-curriculum-list a.masterstudy-curriculum-list__link:hover .masterstudy-curriculum-list__title {
+    color: var(--edublink-color-heading);
+}
+
+.eb-ms-course-details #stm_lms_faq .panel.panel-default .panel-collapse:before {
+    display: none;
+}
+
+.eb-ms-course-details .masterstudy-curriculum-list__toggler {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 1px solid var(--edublink-color-border);
+    margin-top: 0;
+    margin-left: auto;
+}
+
+.eb-ms-course-details .masterstudy-curriculum-list__toggler::after {
+    content: "\ea4e";
+    font-size: 19px;
+    font-family: 'remixicon' !important;
+    color: var(--edublink-color-heading);
+    transition: .3s;
+}
+
+.eb-ms-course-details .masterstudy-curriculum-list__wrapper_opened .masterstudy-curriculum-list__toggler {
+    background: var(--edublink-gradient-primary);
+    border-color: var(--edublink-color-primary-alt);
+}
+
+.eb-ms-course-details .masterstudy-curriculum-list__wrapper_opened .masterstudy-curriculum-list__toggler::after {
+    top: 0px;
+    position: relative;
+    color: var(--edublink-color-white);
+}
+
+.eb-ms-course-details .masterstudy-curriculum-list__order {
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--edublink-color-heading);
+    min-width: 20px;
+    margin-right: 5px;
+}
+
+.eb-ms-course-details .masterstudy-curriculum-list__meta {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--edublink-color-heading);
+}
+
+.eb-ms-course-details .masterstudy-curriculum-list a.masterstudy-curriculum-list__link:hover {
+    color: var(--edublink-color-body);
+}
+
+.masterstudy-curriculum-list__item .masterstudy-curriculum-list__image {
+    height: inherit;
+    position: relative;
+    top: 3px;
+}
+
+.edublink-course-filter-sidebar .filter-widget label {
+    font-weight: 400;
+}
+
+.eb-course-review-wrapper .review-stars-rated+span {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--edublink-color-heading);
+    margin-left: 10px;
+    -webkit-transition: var(--edublink-transition);
+    transition: var(--edublink-transition);
+}
+
+.eb-ms-course-details .masterstudy-curriculum-list__preview, 
+.eb-ms-course-details .masterstudy-curriculum-list__trial {
+    text-transform: inherit;
+    background: rgba(82, 95, 225, .85);
+    color: var(--edublink-color-white);
+    margin: 0 10px 0 0;
+}
+
+
+.eb-ms-curriculum-item i.eb-ms-cu-icon {
+    font-size: 18px;
+    top: 2px;
+    position: relative;
+    margin-right: 7px;
+}
+
+.eb-ms-curriculum-item i.eb-ms-cu-icon.stmlms-text:before {
+    content: "\ed0f";
+    font-family: 'remixicon' !important;
+}
+
+.eb-ms-curriculum-item i.eb-ms-cu-icon.stmlms-quiz:before {
+    content: "\f045";
+    font-family: 'remixicon' !important;
+}
+
+.eb-ms-curriculum-item i.eb-ms-cu-icon.stmlms-slides:before {
+    content: "\f009";
+    font-family: 'remixicon' !important;
+}
+
+.eb-ms-curriculum-item i.fab.fa-youtube.eb-ms-cu-icon:before {
+    content: "\f2d5";
+    font-family: 'remixicon' !important;
+}
+
+.eb-ms-curriculum-item i.fas.fa-video.eb-ms-cu-icon:before {
+    content: "\f51e";
+    font-family: 'remixicon' !important;
+    font-weight: 400;
+}
+
+body .stm_lms_courses__single .stm_lms_courses__single--image__progress,
+body .stm_lms_courses__single {
+    z-index: 0;
+}
+
+body .stm_lms_courses__grid .stm_lms_courses__single--info .stm_lms_courses__single--info_title a h4 {
+    transition: .3s;
+}
+
+.stm_lms_courses__single--info_meta .stm_lms_course__meta,
+body .stm_lms_courses__single--info_excerpt,
+body .stm_lms_courses__single--info .stm-lms-wishlist span {
+    font-size: 14px;
+}
+
+.stm-lms-wishlist {
+    display: flex;
+    align-items: center;
+}
+
+body .stm-lms-wishlist i {
+    color: var(--edublink-color-secondary);
+    border-color: #e5e5e5;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+body .stm_lms_courses__filter .stm_lms_styled_checkbox span {
+    font-weight: 500;
+    color: var(--edublink-color-heading);
+}
+
+body .stm_lms_courses__single:hover,
+body .stm_lms_courses__single.is_featured .stm_lms_courses__single__inner .stm_lms_courses__single--image .elab_is_featured_product,
+body .stm_lms_post_status {
+    z-index: 3;
+}
+
+body .stm_lms_courses__single--info {
+    z-index: 4;
+}
+
+body .courses_filters .stm_lms_courses_grid__sort .sort_label,
+body .stm_lms_courses__filter .stm_lms_styled_checkbox__inner input:checked+span,
+body .stm_lms_post_status,
+body .stm_lms_courses__single.is_featured .stm_lms_courses__single__inner .stm_lms_courses__single--image .elab_is_featured_product,
+body .stm_lms_courses__single--info_preview a,
+body .stm_lms_courses__filter_heading .toggler:before,
+body .stm_lms_courses__filter_heading .toggler:after,
+body .stm_lms_courses__filter_actions input[type=submit] {
+    background-color: var(--edublink-color-primary);
+}
+
+body .stm_lms_courses__single--info_preview a:hover,
+body .stm_lms_courses__filter_actions input[type=submit]:hover {
+    background-color: var(--edublink-color-primary-alt);
+}
+
+body .stm_lms_courses__grid .stm_lms_courses__single--info .stm_lms_courses__single--info_title a:hover h4,
+body .stm_lms_courses__filter_reset:hover {
+    color: var(--edublink-color-primary) !important;
+}
+
+body .stm_lms_courses__filter:first-child {
+    border-top-color: var(--edublink-color-primary);
+}
+
+body .btn.btn-default {
+    background-color: var(--edublink-color-primary) !important;
+}
+
+body .btn.btn-default:hover {
+    background-color: var(--edublink-color-primary-alt) !important;
+}
+
+body .stm_lms_courses__single--info_meta .stm_lms_course__meta,
+body .stm_lms_courses__single--info .stm-lms-wishlist span {
+    color: var(--edublink-color-heading);
+}
+
+body .stm_lms_courses__single--info_excerpt {
+    color: var(--edublink-color-body);
+}
+
+body .stm-lms-wishlist:hover i, 
+body .stm-lms-wishlist:hover i.far {
+    border-color: var(--edublink-color-secondary);
+    background-color: var(--edublink-color-secondary);
+}
+
+body .stm_lms_post_status.hot {
+    background-color: var(--edublink-color-secondary);
+}
+
+body .stm_lms_post_status.special {
+    background-color: var(--edublink-color-tertiary);
+}
+
+body .courses_filters__activities .lms_courses.search .stm_lms_courses__search .lms-search-btn {
+    border-color: var(--edublink-color-primary);
+    background-color: var(--edublink-color-primary);
+}
+
+body .stm_lms_announcement h3 {
+    font-weight: var(--edublink-p-bold);
+}
+
+body #stm_lms_faq.panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: 0px;
+}
+
+.edublink-single-product-inner .edublink-single-product-thumb-wrapper .product-over-info ul li.add-to-cart a.loading {
+    min-height: inherit;
+}
+
+.edublink-single-product-inner .edublink-single-product-thumb-wrapper .product-over-info ul li.add-to-cart a.loading::before {
+    border: 0;
+    margin-left: 0;
+    opacity: 1;
+    animation: inherit;
+}
+
+body .stm_lms_checkout__payment a.btn.btn-default.stm_lms_pay_button,
+body a.masterstudy-button.masterstudy-button_style-primary {
+    background: var(--edublink-color-primary);
+}
+
+body .stm_lms_checkout__payment a.btn.btn-default.stm_lms_pay_button:hover,
+body a.masterstudy-button.masterstudy-button_style-primary:hover {
+    background: var(--edublink-color-primary-alt);
+}
+
+body .masterstudy-authorization__switch-account a.masterstudy-authorization__switch-account-link {
+    color: var(--edublink-color-primary);
+}
+
+body .masterstudy-authorization__switch-account a.masterstudy-authorization__switch-account-link:hover {
+    color: var(--edublink-color-primary-alt);
+}
+
+body .masterstudy-authorization__checkbox-wrapper.masterstudy-authorization__checkbox-wrapper_checked {
+    background: var(--edublink-color-primary);
+    border-color: var(--edublink-color-primary);
+}
+
+body .masterstudy-authorization__form input.masterstudy-authorization__form-input:focus {
+    border-color: var(--edublink-color-primary);
+}
+
+@media only screen and (max-width: 576px) {
+    .eb-ms-course-details .masterstudy-curriculum-list__title {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .eb-ms-course-details .tab-content .masterstudy-curriculum-list {
+        padding: 25px;
+    }
+}
+
+
+/* course details rating */
+body .stm-lms-message.success {
+    background-color: var(--edublink-color-primary);
+}
+
+body .ql-container.ql-snow {
+    border-color: var(--edublink-color-border);
+}
+
+
+.eb-ms-course-details .stm_lms_average__rating {
+    display: flex;
+    border-bottom: 1px solid var(--edublink-color-border);
+    margin-bottom: 45px;
+}
+
+.eb-ms-course-details #reviews .average_rating {
+    float: inherit;
+    margin-right: 50px;
+}
+
+.eb-ms-course-details #reviews .average_rating_unit {
+    min-width: 170px;
+    min-height: 160px;
+    padding: 20px 10px;
+    margin: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px 0 rgba(0, 0, 0, 0.07);
+    border: 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.eb-ms-course-details #reviews .average_rating_unit .average_rating_value {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1;
+    font-family: var(--edublink-font-secondary);
+    color: var(--edublink-color-secondary);
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.eb-ms-course-details #reviews .detailed_rating {
+    float: inherit;
+    margin: 0;
+    width: 100%;
+}
+
+.eb-ms-course-details #reviews .detailed_rating .rating_sub_title {
+    display: none;
+}
+
+.eb-ms-course-details #reviews .detailed_rating .detail_rating_unit.table-bordered {
+    border: 0;
+}
+
+.eb-ms-course-details .table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: transparent;
+}
+
+.eb-ms-course-details #reviews .detailed_rating .detail_rating_unit tr td {
+    margin-bottom: 3px;
+}
+
+.eb-ms-course-details #reviews .detailed_rating .detail_rating_unit tr td,
+.eb-ms-course-details #reviews .detailed_rating .detail_rating_unit tr td.key {
+    font-weight: 500;
+    color: var(--edublink-color-heading);
+    font-size: var(--edublink-font-size-b1);
+}
+
+.eb-ms-course-details #reviews .detailed_rating .detail_rating_unit tr td.key {
+    max-width: 35px;
+    padding-bottom: 8px;
+}
+
+.eb-ms-course-details #reviews .detailed_rating .detail_rating_unit tr td.bar .full_bar .bar_filler {
+    background-color: var(--edublink-color-tertiary);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.eb-ms-course-details #reviews .detailed_rating .detail_rating_unit tr td.bar {
+    height: 6px;
+    padding-top: 9px;
+    padding-bottom: 0;
+}
+
+.eb-ms-course-details #reviews .detailed_rating .detail_rating_unit tr td.bar .full_bar {
+    width: 177px;
+    min-width: 100%;
+    height: 6px;
+    border-radius: 6px;
+    border: 0;
+    background: #f2f2f2;
+}
+
+body .masterstudy-progress__bar-filled {
+    border-bottom-color: var(--edublink-color-tertiary);
+}
+
+body .masterstudy-single-course-reviews__star.masterstudy-single-course-reviews__star_clicked::before, 
+body .masterstudy-single-course-reviews__star.masterstudy-single-course-reviews__star_filled::before {
+    color: var(--edublink-color-tertiary);
+}
+
+.edublink-course-details-page .stm-lms-reviews a.btn.btn-default {
+    margin-bottom: 15px;
+} 
+
+.stm-lms-reviews-single .media {
+    display: flex;
+}
+
+.edublink-course-details-page #reviews #stm_lms_add_review a {
+    color: var(--edublink-color-primary);
+}
+
+.edublink-course-details-page #reviews #stm_lms_add_review a:hover {
+    color: var(--edublink-color-primary-alt);
+}
+
+@media only screen and (max-width: 991px) {
+
+    .eb-ms-course-details #reviews .average_rating {
+        margin: 0 0 30px;
+    }
+
+    .eb-ms-course-details .stm_lms_average__rating {
+        flex-direction: column;
+    }
+}
+
+/* shop */
+.edublink-pagination-wrapper ul.page-numbers>li a.page-numbers:after, 
+.edublink-pagination-wrapper ul.page-numbers>li span.page-numbers:after,
+.edublink-pagination-wrapper ul.page-numbers>li a.page-numbers.current:after, 
+.edublink-pagination-wrapper ul.page-numbers>li span.page-numbers.current:after {
+    background-color: transparent;
+}
+
+.edublink-pagination-wrapper ul.page-numbers>li a.page-numbers, 
+.edublink-pagination-wrapper ul.page-numbers>li span.page-numbers {
+    border: 0;
+}
+
+.edublink-pagination-wrapper ul.page-numbers>li .prev i,
+.edublink-pagination-wrapper ul.page-numbers>li .next i {
+    margin-left: 0px;
+}
+
+/* cart & checkout */
+body .stm_lms_cart__item {
+    border-color: var(--edublink-color-border);
+}
+
+body .stm_lms_instructor_courses__top a i,
+body .stm_lms_instructor_courses__top a {
+    color: var(--edublink-color-white) !important;
+}
+
+/* user profile page */
+body .stm_lms_instructor_courses__single--status-inner {
+    z-index: 0;
+}
+
+.eb-ms-user-public-page.edublink-main-content-inner {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.eb-ms-user-account-page.edublink-main-content-inner,
+.eb-ms-user-wishlist-page.edublink-main-content-inner {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+@media only screen and (max-width: 991px) {
+    .eb-ms-user-public-page.edublink-main-content-inner {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .eb-ms-user-account-page.edublink-main-content-inner,
+    .eb-ms-user-wishlist-page.edublink-main-content-inner {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .eb-ms-user-public-page.edublink-main-content-inner {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .eb-ms-user-account-page.edublink-main-content-inner,
+    .eb-ms-user-wishlist-page.edublink-main-content-inner {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+body .stm-lms-user-avatar-edit:hover .stm-lms-user_avatar:before {
+    visibility: hidden;
+    opacity: 0;
+}
+
+body .stm_lms_user_info_top h5.student_name_pos {
+    font-family: var(--edublink-font-primary);
+    color: var(--edublink-color-body);
+}
+
+body .stm_lms_user_info_top h3.student_name {
+    margin: 0 0 3px;
+}
+
+body .stm_lms_instructor_info .stm-lms-user_avatar img {
+    padding: 0;
+}
+
+body .stm_lms_instructor_info .stm_lms_user_bio {
+    margin-left: 20px;
+}
+
+body .stm_lms_instructor_info .stm_lms_user_bio h3 {
+    margin: 5px 0 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+body .stm-lms-user_rating strong.rating {
+    top: 0px;
+}
+
+body .masterstudy-lms-public-account-courses-tabs h3 {
+    margin: 7px 90px 0 0;
+}
+
+body .stm-lms-user_create_announcement_btn a span, 
+body .stm-lms-user_edit_profile_btn a span {
+    font-size: 14px;
+}
+
+body .stm_lms_acc_tabs .float_menu_item__inline i, 
+body .stm_lms_acc_tabs .float_menu_item__inline span {
+    font-size: 14px;
+}
+
+body .stm_lms_chat_messages__send h4 span {
+    color: var(--edublink-color-heading);
+    font-weight: 700;
+}
+
+body .stm-lms-user_edit_profile_btn a span {
+    top: 6px;
+}
+
+body .stm_lms_instructor_courses__top .masterstudy-lms-course-filters a {
+    color: var(--edublink-color-heading) !important;
+}
+
+body .stm_lms_instructor_courses__single--term a {
+    color: var(--edublink-color-body);
+}
+
+body .stm_lms_instructor_courses__top .masterstudy-lms-course-filters a:hover {
+    background: transparent !important;
+}
+
+body .stm_lms_courses__archive_filters .stm_lms_courses__filter .stm_lms_styled_checkbox__inner input:checked+span, 
+body .stm_lms_courses__archive_filters .stm_lms_courses__rating .stm_lms_courses__filter_content label .wpcfto_radio input:checked+.wpcfto_radio__fake:before,
+body .stm_lms_acc_tabs__secondary_inner,
+body .stm_lms_chat__conversations .stm_lms_chat__conversation__messages_num.has_new,
+body .stm_lms_acc_tabs .float_menu_item__inline.float_menu_item_active abbr, 
+body .stm_lms_acc_tabs .float_menu_item__inline:hover abbr,
+body .stm_lms_courses__single--image__progress_label,
+body .stm_lms_courses__single--image__progress_bar,
+body .stm-lms-user-courses .stm_lms_instructor_courses__single--progress_filled,
+body .stm_lms_instructor_courses__single--featured .feature_it,
+body .stm_lms_acc_tabs i.stm_lms_acc_tabs__toggle,
+body .stm_lms_instructor_courses__top .masterstudy-lms-course-filters a.clicked::after {
+    background-color: var(--edublink-color-primary);
+}
+
+body .stm-lms-user-avatar-edit i.lnricons-pencil, 
+body .stm-lms-user-avatar-edit input,
+body.stm_lms_button .stm-lms-user-courses .stm_lms_instructor_courses__single--enroll a.btn.btn-default:active, 
+body.stm_lms_button .stm-lms-user-courses .stm_lms_instructor_courses__single--enroll a.btn.btn-default:focus, 
+body.stm_lms_button .stm-lms-user-courses .stm_lms_instructor_courses__single--enroll a.btn.btn-default:hover, 
+body.stm_lms_button .stm-lms-user-courses .stm_lms_instructor_courses__single--enroll a.btn.btn-default:visited {
+    background-color: var(--edublink-color-primary) !important;
+}
+
+body .stm_lms_instructor_courses__single--featured .feature_it:hover {
+    background-color: var(--edublink-color-primary-alt);
+}
+
+body.stm_lms_button .stm-lms-user-courses .stm_lms_instructor_courses__single--enroll a.btn.btn-default:hover {
+    background-color: var(--edublink-color-primary-alt) !important;
+}
+
+body .stm_lms_acc_tabs__main {
+    background-color: var(--edublink-color-primary);
+    border-color: var(--edublink-color-primary);
+}
+
+body .stm_lms_instructor_courses__top .masterstudy-lms-course-filters a.clicked, 
+body .stm_lms_instructor_courses__top .masterstudy-lms-course-filters a:hover {
+    color: var(--edublink-color-primary) !important;
+}
+
+body .stm_lms_chat_companion .lnr-sync,
+body .stm-lms-user_create_announcement_btn a span:hover, 
+body .stm-lms-user_create_announcement_btn a:hover, 
+body .stm-lms-user_create_announcement_btn.__bordered:hover a i, 
+body .stm-lms-user_create_announcement_btn.__bordered:hover a span, 
+body .stm-lms-user_create_announcement_btn.active a, 
+body .stm-lms-user_edit_profile_btn a span:hover, 
+body .stm-lms-user_edit_profile_btn a:hover, 
+body .stm-lms-user_edit_profile_btn.__bordered:hover a i, 
+body .stm-lms-user_edit_profile_btn.__bordered:hover a span, 
+body .stm-lms-user_edit_profile_btn.active a,
+body .stm_lms_instructor_courses__single--status .stm_lms_instructor_courses__single--choice.chosen i,
+body .stm_lms_acc_tabs .float_menu_item__inline.float_menu_item_active i, 
+body .stm_lms_acc_tabs .float_menu_item__inline.float_menu_item_active span, 
+body .stm_lms_acc_tabs .float_menu_item__inline:hover i, 
+body .stm_lms_acc_tabs .float_menu_item__inline:hover span {
+    color: var(--edublink-color-primary);
+}
+
+body #stm-lms-course-no-result a.btn i,
+body #stm-lms-course-no-result a.btn {
+    color: var(--edublink-color-white);
+}
+
+body .stm-lms-user_create_announcement_btn.__bordered:hover, 
+body .stm-lms-user_edit_profile_btn.__bordered:hover,
+body .stm_lms_chat__conversations .stm_lms_chat__conversation.active, 
+body .stm_lms_chat__conversations .stm_lms_chat__conversation:hover,
+body .stm_lms_courses__single.is_featured .stm_lms_courses__single__inner {
+    border-color: var(--edublink-color-primary);
+}
+
+/* lesson page */
+body .masterstudy-discussions__avatar-image {
+    display: flex;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.masterstudy-course-player-content_dark-mode a {
+    color: var(--edublink-color-white);
+}
+
